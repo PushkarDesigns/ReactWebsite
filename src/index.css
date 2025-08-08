@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+  display: inline-block;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.area {
+	width: 30%;
+	text-align: center;
+}
+
+.travel-area {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+}
+.group-inner {
+	text-align: center;
+	width: 30%;
+}
+.container .class-wrapper .card-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-list .card-item {
+  list-style: none;
+}
+
+.card-list .card-item {
+  width: 350px;
+  display: block;
+  background: #FFB22C;
+  padding: 18px;
+  border-radius: 12px;
+  text-decoration: none;
+  border: 2px solid transparent;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.10);
+  transition: 0.3s ease-in;
+}
+
+.header {
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    padding: 30px 5%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+	padding: 0px 15px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	padding-right: 25px;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #444;
+    font-weight: 500;
+    margin: 0 20px;
+    transition: .3s;
+}
+
+.navbar li {
+    display: flex;
+	list-style: none;
+}
+
+.navbar a:hover {
+    color: #1EC6B6;
+}
+
+.phone svg {
+	color: #FF4A52;
+	margin-right: 5px;
+	font-size: 14px;
+}
+.phone {
+    margin-left: 20px;
+}
+.phone span {
+	padding-right: 20px;
+	border-right: 1px solid #EAEAEA;
+}
+
+
+.social-icons ul li {
+    list-style: none;
+    list-style: none;
+	margin: 0px 11px;
+}
+
+.social-icons ul li a {
+    color: #AAB1B7;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.social-icons ul li a:hover {
+    color: #FF4A52;
+}
+
+.social-icons ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search-icon a svg {
+	display: block;
+	width: 100%;
+    height: 100%;
+	text-align: center;
+	color: #fff;
+	background-color: #FF4A52;
+	padding: 30px;
+    cursor: pointer;
+}
