@@ -1,14 +1,12 @@
-const Destination = (props) => {
+import React from "react";
+
+const Destination = ({ img, title, places }) => {
     return (
-        <section className="popular-area">
-            <div className="popular-container">
-                <h2 className="popular-heading">{props.heading}</h2>
-                <p className="popular-description">{props.description}</p>
-                {/* {
-                    props.Destination.src.map((item) => <div><img src="{item.image}" /></div>)
-                } */}
-            </div>
-        </section>
+        <div className="container">
+            <img src={img} alt={title} className="destination-img" />
+            <h4>{title}</h4>
+            <p>{places}</p>
+        </div>
     );
 };
 

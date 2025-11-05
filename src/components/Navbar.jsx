@@ -5,7 +5,6 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaGooglePlusG } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 
-
 const Navbar = (props) => {
     console.log(props.nav);
     return (

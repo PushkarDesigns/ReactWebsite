@@ -1,6 +1,6 @@
 export const navData = {
     logo:{
-        src: "./public/logo.png",
+        src: "./logo.png",
         alt: "logo"
     },
     link: [{label: "Home", link: "/"}, {label: "About", link: "/"}, {label:
@@ -66,43 +66,96 @@ export const Man = {
     paragraph:"Journeys Are Best Measured In New Friends"
 }
 
-export const popular = {
-    heading: "Popular Destination",
-    description: "Suffered alteration in some form, by injected humour or good day randomised booth anim 8-bit hella wolf moon beard words."
-}
+// json.js
 
-export const popularcard1 ={
-    src: "./public/Destination-1.png",
+export const popular = {
+  heading: "Popular Destination",
+  description: "Suffered alteration in some form, by injected humour or good day randomised booth anim 8-bit hella wolf moon beard words."
+};
+
+export const popularCards = [
+  {
+    src: "/10.png",
     title: "Italy",
     places: "07 Places"
-}
-
-export const popularcard2 ={
-    src: "./public/Destination-2.png",
-    title: "Brazil ",
+  },
+  {
+    src: "/20.png",
+    title: "Brazil",
     places: "03 Places"
-}
-
-export const popularcard3 ={
-    src: "./public/Destination-3.png",
+  },
+  {
+    src: "/30.png",
     title: "America",
     places: "10 Places"
-}
-
-export const popularcard4 ={
-    src: "./public/Destination-4.png",
+  },
+  {
+    src: "/40.png",
     title: "Nepal",
     places: "02 Places"
-}
-
-export const popularcard5 ={
-    src: "./public/Destination-5.png",
-    title: "Maldives ",
+  },
+  {
+    src: "/50.png",
+    title: "Maldives",
     places: "05 Places"
+  },
+  {
+    src: "/60.png",
+    title: "Indonesia",
+    places: "06 Places"
+  }
+];
+
+export const PlacesInfo1 ={
+    src: "/1.webp",
+    placeName: "California",
+    cityName: "United State of America",
+    rating: "(20 Review)",
+    days: " 5 Days ",
+    cost: "$ 500"
 }
 
-export const popularcard6 ={
-    src: "./public/Destination-6.png",
-    title: "Indonesia ",
-    places: "06 Places"
+export const PlacesInfo2 ={
+    src: "/2.webp",
+    placeName: "Korola Megna",
+    cityName: "United State of America",
+    rating: "(20 Review)",
+    days: " 5 Days ",
+    cost: "$ 500"
+}
+
+export const PlacesInfo3 ={
+    src: "/3.webp",
+    placeName: "London",
+    cityName: "United State of America",
+    rating: "(20 Review)",
+    days: " 5 Days ",
+    cost: "$ 500"
+}
+
+export const PlacesInfo4 ={
+    src: "/4.webp",
+    placeName: "Miami Beach",
+    cityName: "United State of America",
+    rating: "(20 Review)",
+    days: " 5 Days ",
+    cost: "$ 500"
+}
+
+export const PlacesInfo5 ={
+    src: "/5.webp",
+    placeName: "California",
+    cityName: "United State of America",
+    rating: "(20 Review)",
+    days: " 5 Days ",
+    cost: "$ 500"
+}
+
+export const PlacesInfo6 ={
+    src: "/6.webp",
+    placeName: "Saintmartine Iceland",
+    cityName: "United State of America",
+    rating: "(20 Review)",
+    days: " 5 Days ",
+    cost: "$ 500"
 }
