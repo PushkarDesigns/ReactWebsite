@@ -11,6 +11,7 @@ import NewsLetter from "./components/NewsLetter"
 import Places from "./components/Places"
 import { PlacesInfo1, PlacesInfo2, PlacesInfo3, PlacesInfo4, PlacesInfo5, PlacesInfo6, } from "./json"
 import CTA from './components/CTA'
+import Video from './components/video'
 
 function App() {
   return (
@@ -91,6 +92,10 @@ function App() {
           <Recent image={mountain.image} heading={mountain.heading} paragraph={mountain.paragraph} />
           <Recent image={Man.image} heading={Man.heading} paragraph={Man.paragraph} />
         </div>
+      </section>
+
+      <section className="play">
+        <Video/>
       </section>
     </>
   )

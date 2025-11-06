@@ -198,7 +198,6 @@
     }
 }
 
-/* Newsletter Section */
 .newsletter {
     position: relative;
     background-image: url('/newsletter.png');
@@ -211,7 +210,6 @@
     text-align: center;
 }
 
-/* Overlay for better text visibility */
 .newsletter::before {
     content: "";
     position: absolute;
@@ -220,11 +218,9 @@
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
-    /* black overlay at 50% opacity */
     z-index: 0;
 }
 
-/* Container to keep content above overlay */
 .newsletter .container {
     position: relative;
     z-index: 1;
@@ -232,7 +228,7 @@
     margin: 0 auto;
 }
 
-/* Left column */
+
 .cols {
     flex: 1 1 40%;
     min-width: 250px;
@@ -248,13 +244,12 @@
     line-height: 1.5;
 }
 
-/* Right column with form */
+
 .cols-2 {
     flex: 1 1 50%;
     min-width: 250px;
 }
 
-/* Newsletter form styles */
 .newsletter-box {
     display: flex;
     width: 100%;
@@ -269,7 +264,6 @@
     outline: none;
 }
 
-/* Button styles */
 .newsletter-box button {
     padding: 12px 25px;
     border: none;
@@ -286,7 +280,6 @@
     background-color: #005fa3;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
     .flex {
         flex-direction: column;
@@ -417,7 +410,6 @@
     text-decoration: underline;
 }
 
-/* Responsive */
 @media (max-width: 992px) {
     .single-place {
         width: calc(50% - 10px);
@@ -485,7 +477,6 @@
     background-color: #005fa3;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .search-fields {
         flex-direction: column;
@@ -498,4 +489,90 @@
         width: 100%;
         max-width: 400px;
     }
+}
+
+.play {
+  background-image: url(/public/video.png);
+	width: 100%;
+	display: inline-block;
+	background-position: center center;
+	background-size: cover;
+	padding: 185px 0;
+	filter: brightness(85%);
+}
+.enjoy-row p {
+	font-family: "Nothing You Could Do", cursive;
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 90px;
+	color: #fff;
+	margin-bottom: 55px;
+}
+
+
+.video-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.enjoy-row {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+}
+
+.video-title {
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.play-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #25c5c5;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  font-size: 36px;
+  color: #fff;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.play-btn:hover {
+  background-color: #1fa4a4;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .video-title {
+    font-size: 2.2rem;
+  }
+
+  .play-btn {
+    width: 65px;
+    height: 65px;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .video-title {
+    font-size: 1.8rem;
+  }
+
+  .play-btn {
+    width: 55px;
+    height: 55px;
+    font-size: 24px;
+  }
 }
